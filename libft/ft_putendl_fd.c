@@ -2,7 +2,7 @@
 
 void	ft_putendl_fd(char *s, int fd)
 {
-	if (s && fd > 0)
+	if (s && fd >= 0)
 	{
 		while (*s != '\0')
 		{
