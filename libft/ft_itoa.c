@@ -1,5 +1,4 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include "libft.h"
 
 static int	get_size(long int n)
 {

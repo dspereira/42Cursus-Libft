@@ -1,7 +1,4 @@
-#include <stdlib.h>
-
-size_t	ft_strlen(const char *s);
-size_t	ft_strlcat(char *dst, const char *src, size_t size);
+#include "libft.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

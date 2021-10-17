@@ -1,14 +1,4 @@
-#include <stdlib.h>
-
-size_t	str_len(const char *str)
-{
-	size_t	size;
-
-	size = 0;
-	while (str[size] != '\0')
-		size++;
-	return (size);
-}
+#include "libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
@@ -19,8 +9,8 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	i = 0;
 	if (!dst || !src)
 		return (0);
-	dst_size = str_len(dst);
-	src_size = str_len(src);
+	dst_size = ft_strlen(dst);
+	src_size = ft_strlen(src);
 	if (size < dst_size)
 		return (src_size + size);
 	while (src[i] != '\0' && i < size - 1 - dst_size)
