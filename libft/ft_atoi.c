@@ -15,7 +15,8 @@ int	ft_atoi(const char *str)
 		i++;
 	if (str[i] == '-' || str[i] == '+')
 	{
-		mult = str[i] == '-' ? -1 : 1;
+		if (str[i] == '-')
+			mult = -1;
 		i++;
 	}
 	while (str[i] != '\0' && (str[i] >= '0' && str[i] <= '9'))
