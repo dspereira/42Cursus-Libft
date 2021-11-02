@@ -33,20 +33,36 @@ SRCS 	= ft_isalpha.c \
 		  ft_putchar_fd.c \
 		  ft_putstr_fd.c \
 		  ft_putendl_fd.c \
-		  ft_putnbr_fd.c \
+		  ft_putnbr_fd.c
 
-OBJS	= $(SRCS:.c=.o)
-CC		= gcc
-CFLAGS	= -Wall -Wextra -Werror -I.
-RM		= rm -f
+OBJS		= $(SRCS:.c=.o)
+
+BONUS_SRCS = ft_lstnew_bonus.c \
+			 ft_lstadd_front_bonus.c \
+			 ft_lstsize_bonus.c \
+			 ft_lstlast_bonus.c \
+			 ft_lstadd_back_bonus.c \
+			 ft_lstdelone_bonus.c \
+			 ft_lstclear_bonus.c \
+			 ft_lstiter_bonus.c \
+			 ft_lstmap_bonus.c
+
+BONUS_OBJS 	= $(BONUS_SRCS:.c=.o)
+
+CC			= gcc
+CFLAGS		= -Wall -Wextra -Werror -I.
+RM			= rm -f
 
 all: $(NAME)
 
 $(NAME): $(OBJS)
 	ar rc $(NAME) $(OBJS)
 
+bonus: $(OBJS) $(BONUS_OBJS) 
+	   ar rc $(NAME) $(OBJS) $(BONUS_OBJS)
+
 clean:
-	$(RM) $(OBJS)
+	$(RM) $(OBJS) $(BONUS_OBJS)
 
 fclean: clean
 	$(RM) $(NAME)
