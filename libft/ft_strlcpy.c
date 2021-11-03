@@ -6,7 +6,7 @@
 /*   By: dsilveri <dsilveri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 11:33:45 by dsilveri          #+#    #+#             */
-/*   Updated: 2021/11/03 11:33:46 by dsilveri         ###   ########.fr       */
+/*   Updated: 2021/11/03 14:45:42 by dsilveri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,6 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 
 	i = 0;
 	s = 0;
-	if (!dst || !src)
-		return (0);
 	while (src[s] != '\0')
 		s++;
 	if (size > 1)

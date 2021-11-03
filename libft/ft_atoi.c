@@ -6,7 +6,7 @@
 /*   By: dsilveri <dsilveri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 11:28:21 by dsilveri          #+#    #+#             */
-/*   Updated: 2021/11/03 11:28:25 by dsilveri         ###   ########.fr       */
+/*   Updated: 2021/11/03 15:07:39 by dsilveri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,6 @@ int	ft_atoi(const char *str)
 	i = 0;
 	num = 0;
 	mult = 1;
-	if (!str)
-		return (0);
 	while ((str[i] >= 9 && str[i] <= 13) || str[i] == ' ')
 		i++;
 	if (str[i] == '-' || str[i] == '+')

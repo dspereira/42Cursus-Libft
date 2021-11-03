@@ -6,7 +6,7 @@
 /*   By: dsilveri <dsilveri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 11:33:38 by dsilveri          #+#    #+#             */
-/*   Updated: 2021/11/03 11:33:41 by dsilveri         ###   ########.fr       */
+/*   Updated: 2021/11/03 15:00:13 by dsilveri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	size_t	i;
 
 	i = 0;
-	if (!dst || !src)
+	if (!dst && !src)
 		return (0);
 	dst_size = ft_strlen(dst);
 	src_size = ft_strlen(src);

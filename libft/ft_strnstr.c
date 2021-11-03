@@ -6,7 +6,7 @@
 /*   By: dsilveri <dsilveri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 11:34:04 by dsilveri          #+#    #+#             */
-/*   Updated: 2021/11/03 11:34:06 by dsilveri         ###   ########.fr       */
+/*   Updated: 2021/11/03 15:03:44 by dsilveri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ char	*ft_strnstr(const char *s1, const char *s2, size_t n)
 	size_t	i;
 
 	i = 0;
-	if (!s1 || !s2)
+	if (!s1 && !s2)
 		return (0);
 	if (s2[i] == '\0')
 		return ((char *)s1);
