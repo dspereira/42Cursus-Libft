@@ -3,20 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: diogo <diogo@student.42.fr>                +#+  +:+       +#+        */
+/*   By: dsilveri <dsilveri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 11:34:14 by dsilveri          #+#    #+#             */
-/*   Updated: 2021/11/04 19:23:05 by diogo            ###   ########.fr       */
+/*   Updated: 2021/11/08 14:19:47 by dsilveri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	get_index(char const *s1, char const *set, int start, int direction)
+static size_t	get_index(char const *s1, char const *set, int start, int dir)
 {
-	while (direction > 0 && s1[start] != '\0' && ft_strchr(set, s1[start]))
+	while (dir > 0 && s1[start] != '\0' && ft_strchr(set, s1[start]))
 		start++;
-	while (direction < 0 && start >= 0 && ft_strchr(set, s1[start]))
+	while (dir < 0 && start >= 0 && ft_strchr(set, s1[start]))
 		start--;
 	if (start < 0)
 		return (0);

@@ -6,13 +6,13 @@
 /*   By: dsilveri <dsilveri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 11:33:12 by dsilveri          #+#    #+#             */
-/*   Updated: 2021/11/03 11:33:12 by dsilveri         ###   ########.fr       */
+/*   Updated: 2021/11/08 14:22:50 by dsilveri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	get_size(char const *s, char c)
+static size_t	get_size(char const *s, char c)
 {
 	size_t	size;
 	int		flag;
