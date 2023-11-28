@@ -13,15 +13,14 @@ Some of the functions are a reimplementation of the C Standard Library, while ot
 - [`ft_memset`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_memset.c)		        - Write a specified number of bytes with a given value in an array of bytes.
 - [`ft_bzero`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_bzero.c)		        - Write a specified number of zeros in an array of bytes.
 - [`ft_memcpy`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_memcpy.c)	            - Copy a specified number of bytes from one array of bytes to another array of bytes.
+- [`ft_memmove`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_memmove.c)	        - Copy a specified number of bytes from one array of bytes to another array of bytes, handling potential overlap.
+- [`ft_strlcpy`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_strlcpy.c)			- Copy a specified number of characters from one string to another string.
+- [`ft_strlcat`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_strlcat.c)			- Concatenate two strings with a specified size limit.  
+- [`ft_toupper`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_toupper.c)			- Convert to uppercase letter.
+- [`ft_tolower`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_tolower.c)			- Convert to lowercase letter.
+- [`ft_strchr`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_strchr.c)				- Locate the first occurrence of a character in a string.
 
-- [`ft_memmove`](ft_memmove.c)	- copy byte string.
 
-
-- [`ft_strlcpy`](ft_strlcpy.c)			- string copying (with size limit).
-- [`ft_strlcat`](ft_strlcat.c)			- string concatenation (with size limit).
-- [`ft_toupper`](ft_toupper.c)			- lower case to upper case letter conversion.
-- [`ft_tolower`](ft_tolower.c)			- upper case to lower case letter conversion.
-- [`ft_strchr`](ft_strchr.c)				- locate character in string (first occurrence).
 - [`ft_strrchr`](ft_strrchr.c)			- locate character in string (last occurence).
 - [`ft_strncmp`](ft_strncmp.c)			- compare strings (with size limit).
 - [`ft_memchr`](ft_memchr.c)		- locate byte in byte string.
