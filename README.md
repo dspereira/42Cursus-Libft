@@ -1,4 +1,14 @@
 # 42_cursus_libft
+
+## Table of Content
+1. [About Libft](#about-libft)
+2. [Functions](#functions)
+3. [Installation / Usage](#installation--usage)
+4. [License](#license)
+5. [Contact](#contact)
+
+## About Libft
+
 This project is part of the 42Lisboa curriculum and aims to implement a C library with common utility functions frequently used in C projects.
 Some of the functions are a reimplementation of the C Standard Library, while others are entirely new functions. For example, there are functions that assist in creating, adding, and removing elements, as well as cleaning linked lists.
 
