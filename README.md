@@ -4,16 +4,19 @@ Some of the functions are a reimplementation of the C Standard Library, while ot
 
 ## Functions 
 
-- [`ft_isalpha`](ft_isalpha.c)			- test for alphabetic character.
-- [`ft_isdigit`](ft_isdigit.c)			- test for decimal-digit character.
-- [`ft_isalnum`](ft_isalnum.c)			- test for alphanumeric character.
-- [`ft_isascii`](ft_isascii.c)			- test for ASCII character.
-- [`ft_isprint`](ft_isprint.c)			- test for printing character.
-- [`ft_strlen`](ft_strlen.c)				- find length of string.
-- [`ft_memset`](ft_memset.c)		- write a byte to a byte string.
-- [`ft_bzero`](ft_bzero.c)		- write zeroes to a byte string.
-- [`ft_memcpy`](ft_memcpy.c)		- copy memory area.
+- [`ft_isalpha`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_isalpha.c)			- Check if the character is alphabetic.
+- [`ft_isdigit`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_isdigit.c)			- Check if the character is digit.
+- [`ft_isalnum`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_isalnum.c)			- Check if the character is alphanumeric.
+- [`ft_isascii`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_isascii.c)			- Check if the character is ASCII.
+- [`ft_isprint`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_isprint.c)			- Check if the character is printable.
+- [`ft_strlen`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_strlen.c)				- Get the length of the string.
+- [`ft_memset`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_memset.c)		        - Write a specified number of bytes with a given value in an array of bytes.
+- [`ft_bzero`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_bzero.c)		        - Write a specified number of zeros in an array of bytes.
+- [`ft_memcpy`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_memcpy.c)	            - Copy a specified number of bytes from one array of bytes to another array of bytes.
+
 - [`ft_memmove`](ft_memmove.c)	- copy byte string.
+
+
 - [`ft_strlcpy`](ft_strlcpy.c)			- string copying (with size limit).
 - [`ft_strlcat`](ft_strlcat.c)			- string concatenation (with size limit).
 - [`ft_toupper`](ft_toupper.c)			- lower case to upper case letter conversion.
