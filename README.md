@@ -14,6 +14,8 @@ make -C ./libft
 ```
 Usage:
 ```C
+/* main.c */
+
 #include <stdio.h>
 #include "libft.h"
 
