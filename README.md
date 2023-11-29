@@ -38,18 +38,16 @@ Some of the functions are a reimplementation of the C Standard Library, while ot
 - [`ft_calloc`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_calloc.c)	            - Allocate memory and initialize it with zeros.
 - [`ft_strdup`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_strdup.c)				- Duplicate a string.
 - [`ft_substr`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_substr.c)				- Extract a substring from a string.
-
-
-- [`ft_strjoin`](ft_strjoin.c)			- concatenate two strings into a new string (with malloc).
-- [`ft_strtrim`](ft_strtrim.c)			- trim beginning and end of string with the specified characters.
-- [`ft_split`](ft_split.c)				- split string, with specified character as delimiter, into an array of strings.
-- [`ft_itoa`](ft_itoa.c)					- convert integer to ASCII string.
-- [`ft_strmapi`](ft_strmapi.c)			- create new string from modifying string with specified function (with malloc).
-- [`ft_striteri`](ft_striteri.c)			- modifies a string passed as an argument with specified function.
-- [`ft_putchar_fd`](ft_putchar_fd.c)		- output a character to given file.
-- [`ft_putstr_fd`](ft_putstr_fd.c)		- output string to given file.
-- [`ft_putendl_fd`](ft_putendl_fd.c)		- output string to given file with newline.
-- [`ft_putnbr_fd`](ft_putnbr_fd.c)		- output integer to given file.
+- [`ft_strjoin`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_strjoin.c)			- Concatenate two strings.
+- [`ft_strtrim`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_strtrim.c)			- Trim the specified characters from the beginning and end of a string.
+- [`ft_split`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_split.c)				- Split a string with a specified character as a delimiter into an array of strings.
+- [`ft_itoa`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_itoa.c)					- Convert an integer to an ASCII string.
+- [`ft_strmapi`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_strmapi.c)			- Apply a given function to each character in a string.
+- [`ft_striteri`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_striteri.c)			- Apply a given function to each character in a string with its index.
+- [`ft_putchar_fd`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_putchar_fd.c)		- Write a character to a specified file descriptor.
+- [`ft_putstr_fd`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_putstr_fd.c)		- Write a string to a specified file descriptor.
+- [`ft_putendl_fd`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_putendl_fd.c)		- Write a string followed by a newline to a specified file descriptor.
+- [`ft_putnbr_fd`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_putnbr_fd.c)		- Write an integer, converted to a string, to a specified file descriptor.
 
 - [`ft_lstnew`](ft_lstnew.c)				- create new list.
 - [`ft_lstsize`](ft_lstsize.c)			- count elements of a list.
