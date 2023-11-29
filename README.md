@@ -48,16 +48,15 @@ Some of the functions are a reimplementation of the C Standard Library, while ot
 - [`ft_putstr_fd`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_putstr_fd.c)		- Write a string to a specified file descriptor.
 - [`ft_putendl_fd`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_putendl_fd.c)		- Write a string followed by a newline to a specified file descriptor.
 - [`ft_putnbr_fd`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_putnbr_fd.c)		- Write an integer, converted to a string, to a specified file descriptor.
-
-- [`ft_lstnew`](ft_lstnew.c)				- create new list.
-- [`ft_lstsize`](ft_lstsize.c)			- count elements of a list.
-- [`ft_lstlast`](ft_lstlast.c)			- find last element of list.
-- [`ft_lstadd_back`](ft_lstadd_back.c)	- add new element at end of list.
-- [`ft_lstadd_front`](ft_lstadd_front.c)	- add new element at beginning of list.
-- [`ft_lstdelone`](ft_lstdelone.c)		- delete element from list.
-- [`ft_lstclear`](ft_lstclear.c)			- delete sequence of elements of list from a starting point.
-- [`ft_lstiter`](ft_lstiter.c)			- apply function to content of all list's elements.
-- [`ft_lstmap`](ft_lstmap.c)				- apply function to content of all list's elements into new list.
+- [`ft_lstnew`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_lstnew.c)				- Create a new node for a linked list.
+- [`ft_lstsize`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_lstsize.c)			- Count the number of elements in a linked list.
+- [`ft_lstlast`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_lstlast.c)			- Get the last element of a linked list.
+- [`ft_lstadd_back`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_lstadd_back.c)	- Add a new element at the end of a linked list.
+- [`ft_lstadd_front`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_lstadd_front.c)	- Add a new element at the beginning of a linked list.
+- [`ft_lstdelone`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_lstdelone.c)		- Delete an element from a linked list.
+- [`ft_lstclear`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_lstclear.c)			- Delete a sequence of elements from a linked list.
+- [`ft_lstiter`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_lstiter.c)			- Apply a function to the content of all elements in the linked list.
+- [`ft_lstmap`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_lstmap.c)				- Create a new linked list applying a given function to all content of elements.
 
 ## Installation / Usage
 This simple example works on linux and MacOs. It is recommended to utilize a Makefile to facilitate the compilation process for all the files.
