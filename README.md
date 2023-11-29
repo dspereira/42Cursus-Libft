@@ -29,19 +29,17 @@ Some of the functions are a reimplementation of the C Standard Library, while ot
 - [`ft_toupper`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_toupper.c)			- Convert to uppercase letter.
 - [`ft_tolower`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_tolower.c)			- Convert to lowercase letter.
 - [`ft_strchr`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_strchr.c)				- Locate the first occurrence of a character in a string.
+- [`ft_strrchr`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_strrchr.c)			- Locate the last occurrence of a character in a string.
+- [`ft_strncmp`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_strncmp.c)			- Compare two strings up to a specified number of characters.
+- [`ft_memchr`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_memchr.c)	            - Locate the first occurrence of a byte in a byte array.
+- [`ft_memcmp`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_memcmp.c)		        - Compare two memory areas up to a specified number of bytes.
+- [`ft_strnstr`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_strnstr.c)			- Locate a substring in a string with a specified length limit.
+- [`ft_atoi`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_atoi.c)		            - Convert an ASCII string to an integer.
+- [`ft_calloc`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_calloc.c)	            - Allocate memory and initialize it with zeros.
+- [`ft_strdup`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_strdup.c)				- Duplicate a string.
+- [`ft_substr`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_substr.c)				- Extract a substring from a string.
 
 
-- [`ft_strrchr`](ft_strrchr.c)			- locate character in string (last occurence).
-- [`ft_strncmp`](ft_strncmp.c)			- compare strings (with size limit).
-- [`ft_memchr`](ft_memchr.c)		- locate byte in byte string.
-- [`ft_memcmp`](ft_memcmp.c)		- compare byte string.
-- [`ft_strnstr`](ft_strnstr.c)			- locate a substring in a string (with size limit).
-- [`ft_atoi`](ft_atoi.c)		- convert ASCII string to integer.
-
-- [`ft_calloc`](ft_calloc.c)	- memory allocation.
-- [`ft_strdup`](ft_strdup.c)				- save a copy of a string (with malloc).
-
-- [`ft_substr`](ft_substr.c)				- extract substring from string.
 - [`ft_strjoin`](ft_strjoin.c)			- concatenate two strings into a new string (with malloc).
 - [`ft_strtrim`](ft_strtrim.c)			- trim beginning and end of string with the specified characters.
 - [`ft_split`](ft_split.c)				- split string, with specified character as delimiter, into an array of strings.
