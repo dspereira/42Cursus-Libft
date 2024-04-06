@@ -12,6 +12,8 @@
 This project is part of the 42Lisboa curriculum and aims to implement a C library with common utility functions frequently used in C projects.
 Some of the functions are a reimplementation of the C Standard Library, while others are entirely new functions. For example, there are functions that assist in creating, adding, and removing elements, as well as cleaning linked lists.
 
+For more info see the [subject](https://github.com/dspereira/42Cursus-Libft/blob/main/en.subject.pdf).
+
 ## Functions 
 
 - [`ft_isalpha`](https://github.com/dspereira/42Cursus-Libft/blob/main/srcs/ft_isalpha.c)			- Check if the character is alphabetic.
